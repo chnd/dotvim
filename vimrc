@@ -3,6 +3,7 @@ filetype plugin indent on
 syn on se title
 
 set number
+set relativenumber
 set hlsearch
 set ignorecase
 set incsearch
