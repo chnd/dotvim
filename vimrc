@@ -8,6 +8,7 @@ set hlsearch
 set ignorecase
 set incsearch
 set nocscopeverbose
+set noswapfile
 
 set tabstop=4
 set softtabstop=4
@@ -30,3 +31,11 @@ endif
 
 let g:netrw_liststyle = 3
 let g:netrw_browse_split = 2
+let g:netrw_banner = 0
+let g:netrw_winsize = 25
+
+let mapleader = ","
+nnoremap <leader>e :Vexplore<cr>
+
+"set enc=utf-8
+"set langmenu=en_US.utf8
